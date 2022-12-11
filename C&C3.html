@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Download</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+        }
+
+        html {
+            font-size: 18px;
+        }
+
+        .section {
+            background-color: papayawhip;
+            padding: 13rem;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 60%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        h1{
+            font-size: 2rem;
+        }
+
+        form div {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: start;
+            margin-bottom: 0.5rem;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            background-color: wheat;
+            outline: none;
+            font-size: 1rem;
+        }
+
+        input:hover {
+            outline: none;
+            background-color: rgb(245, 225, 187);
+        }
+        .but{
+            width: 100%;
+            padding: 0.5rem;
+            font-size: larger;
+            font-weight: 500;
+            background-color: bisque;
+            border: 1px solid rgb(245, 225, 187);
+            overflow: hidden;
+        }
+        .but:hover{
+            cursor: pointer;
+            background-color: wheat;
+            transition: 0.5s;
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="header">
+            <h1>lets get in touch!</h1>
+        </div>
+
+        <form action="">
+            <div class="container">
+                <div>
+                    <label for="">first name</label>
+                    <input type="text" name="text" id="" placeholder="frank">
+                </div>
+                <div>
+                    <label for="">last name</label>
+                    <input type="text" name="text" id="" placeholder="da-silva">
+                </div>
+                <div>
+
+                    <label for="email">email-address</label>
+                    <input type="email" name="email" id="">
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="">
+                </div>
+
+                <button class="but">send</button>
+            </div>
+
+        </form>
+
+    </section>
+</body>
+
+</html>
